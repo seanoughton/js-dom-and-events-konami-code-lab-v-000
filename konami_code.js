@@ -16,6 +16,6 @@ function init() {
 
 }
 
-const input = document.querySelector('input');
+const input = document.body;
 
 input.addEventListener('keydown', init(e));
