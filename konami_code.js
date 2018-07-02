@@ -1,7 +1,7 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 const input = document.body;
 let index = 0;
-input.addEventListener('keydown', function init(e) {
+input.addEventListener('keydown', function(e) {
   // Write your JavaScript code inside the init() function
   const key = parseInt(e.detail || e.which);
 
