@@ -16,6 +16,5 @@ function init(event){
     }
   } else {
     index = 0;
-    console.log(`Not correct ${key}`)
   };
 }
