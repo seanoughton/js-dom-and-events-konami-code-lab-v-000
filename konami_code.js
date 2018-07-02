@@ -7,8 +7,8 @@ let index = 0;
 
 input.addEventListener('keydown', init);
 
-function init(e){
-  const key = parseInt(e.which);
+function init(event){
+  const key = parseInt(event.which);
   if (key === code[index]) {
     index++;
     if (index === code.length) {
